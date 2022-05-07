@@ -1,0 +1,19 @@
+﻿using System;
+
+
+namespace AddingTwoInteger
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter first number: ");
+            int Num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second number: ");
+            int Num2 = Convert.ToInt32(Console.ReadLine());
+            int total = Num1 + Num2;
+            Console.WriteLine("Your total is : " + total);
+            Console.ReadLine();
+        }
+    }
+}
